@@ -1,0 +1,159 @@
+/* For Navbar like search bar part */
+
+
+/* =================================== */
+
+
+/* For displaying the products */
+/* Main Content Styling */
+.main-content {
+  margin-left: 20%;
+  padding: 2rem;
+  max-width: calc(100% - 20%);
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  transition: all 0.3s ease;
+}
+
+/* Product Grid */
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  grid-template-rows: auto;
+}
+
+/* Product Item Card */
+.product-item {
+  background-color: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid #ddd;
+  padding: 1rem;
+  position: relative;
+}
+
+/* Sale Banner for Sale Items */
+.product-item .sale-banner {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #e74c3c;
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+/* Hover effect for product cards */
+.product-item:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+}
+
+/* Image styles inside product card */
+.product-item img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 8px 8px 0 0;
+  transition: transform 0.3s ease;
+}
+
+/* Hover effect for image */
+.product-item:hover img {
+  transform: scale(1.05);
+}
+
+.product-info {
+  padding: 1rem;
+  color: #3E2723;
+}
+
+/* Product Name */
+.product-info h3 {
+  font-weight: 600;
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+  text-transform: capitalize;
+}
+
+/* Price Styling - Bold and Black */
+.product-info .price {
+  color: #000000; /* Black for both sale and regular prices */
+  font-size: 1.2rem; /* Standard font size */
+  font-weight: bold; /* Make the price bold */
+  margin-bottom: 0.5rem;
+}
+
+/* Sale Price Styling - Black and Bold */
+.product-info .sale-price {
+  font-size: 1.2rem; /* Standard font size, same as regular price */
+  color: #000000; /* Black for the sale price */
+  font-weight: bold; /* Make the sale price bold */
+  margin-top: 0.25rem;
+  text-decoration: none; /* No strikethrough on sale price */
+}
+
+/* Regular Price Styling - Black and Bold */
+.product-info .regular-price {
+  color: #000000; /* Black for the regular price */
+  font-size: 1.2rem; /* Standard font size */
+  font-weight: bold; /* Make regular price bold */
+  margin-top: 0.25rem;
+}
+
+/* Apply strikethrough only if product is on sale */
+.product-info .regular-price.line-through {
+  text-decoration: line-through;
+  color: #bbb; /* Gray color for the original price when struck through */
+}
+
+/* Checkouts and Ratings */
+.product-info .text-sm {
+  font-size: 0.9rem;
+  color: #6c5b3a;
+  margin-bottom: 0.25rem;
+  font-weight: 500;
+}
+
+/* Section Title Styles */
+.section-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #3E2723; /* Dark brown color for section headers */
+}
+
+/* Adjustments for Text Styles */
+.text-sm {
+  font-size: 0.875rem; /* Small text for less important details */
+}
+
+.text-gray-200 {
+  color: #949494;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.mt-8 {
+  margin-top: 2rem;
+}
+
+.product-list {
+  margin-bottom: 2rem;
+}
+
+/* for the profile part */

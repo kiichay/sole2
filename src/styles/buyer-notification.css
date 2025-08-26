@@ -1,0 +1,90 @@
+
+/* Notification */
+/* 5. Main content container */
+.main-content {
+  margin-left: 20%;
+  padding: 2rem;
+}
+
+/* 6. Notification panel */
+.notification-panel {
+  background-color: #fff6ec;
+  max-width: 1000px;
+  padding: 3.5rem 3rem;
+  border-radius: 1.25rem;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  margin: 2rem auto;
+}
+
+/* 7. Bell icon */
+.bell-icon {
+  width: 28px;
+  position: absolute;
+  right: 2rem;
+  top: 1.5rem;
+}
+
+/* 8. Inbox title */
+.inbox-title {
+  margin-top: -2rem;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #4b341e;
+}
+
+/* 9. Section titles */
+.section-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #4b341e;
+  margin-bottom: 1rem;
+  padding-left: 0.5rem;
+  border-left: 4px solid #c3a27f;
+}
+
+/* 10. Notification cards */
+.notification-card {
+  background-color: #fffdfa;
+  padding: 1.5rem 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  border: 1px solid #dbc4a1;
+  font-size: 1rem;
+  line-height: 1.6;
+  transition: box-shadow 0.2s, transform 0.2s;
+  margin-bottom: 1rem;
+}
+.notification-card:hover {
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  transform: scale(1.02);
+}
+
+/* Panel Header */
+.notification-panel h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #4b341e;
+  margin-bottom: 1rem;
+  padding-left: 0.5rem;
+  border-left: 4px solid #c3a27f;
+}
+.notification-card {
+  width: 100%;
+  max-width: 1000px;
+}
+
+/* 11. Spacing utility */
+.space-y-4 > * + * {
+  margin-top: 1rem;
+}
+
+/* 12. Responsive sidebar */
+@media (max-width: 768px) {
+  .sidebar {
+    display: none;
+  }
+  .main-content {
+    margin-left: 0;
+  }
+}
