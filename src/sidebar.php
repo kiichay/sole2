@@ -1,5 +1,5 @@
   <!-- Include Sidebar -->
-  <!--  -->
+  <!--   -->
 <link href="./styles/sidebar.css" rel="stylesheet"> 
 
 <aside class="sidebar flex flex-col justify-between text-white">

@@ -2,7 +2,7 @@
 // Database connection settings
 $servername = "localhost";
 $username = "root";
-$password = "root";
+$password = "1234";
 $dbname = "soletech";
 
 // Create connection
